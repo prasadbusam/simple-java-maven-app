@@ -26,7 +26,7 @@ pipeline {
         }
         stage('Enhancement') {
             steps {
-                echo 'This is a quick buck fix/new enhancement'
+                echo 'This is a quick buck fix/new one enhancement'
             }
         }
         
