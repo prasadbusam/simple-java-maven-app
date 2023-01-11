@@ -24,9 +24,9 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-        stage('Enhancement') {
+        stage('Buckfix') {
             steps {
-                echo 'This is a quick buck fix/new one enhancement'
+                echo 'This is a quick buck fix/new an enhancement'
             }
         }
         
