@@ -24,9 +24,9 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-        stage('Complete') {
+        stage('Buckfix') {
             steps {
-                echo 'completed this is one simple java maven app!!!'
+                echo 'completed this is one simple java maven app new buckfix / and new file!!!'
             }
         }
         
